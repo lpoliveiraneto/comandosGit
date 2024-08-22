@@ -12,3 +12,10 @@
 -  `git switch main`: volta para branch main
 -  `git rebase main`: aplica os novos commit da main ao inicio da branch criada
 -  `git merge`: mescla a branch main com nova criada(_fast forward_)
+-  `git stash`: guarda alterações que não foram commitadas
+    - `list`: lista os itens em stash;
+    - `pop`: retira o último item da stash e aplica ao repositório sem o commit
+    - `drop`: descarta o último item da stash
+    - `apply [indice]`: retira o item indicado pelo indice e aplica ao repositório.
+-  `git restore`: desfaz as alterações no _working tree_ quanto no _staging_
+    - `--source`: deixar o arquivo determinado do commit escolhido. 
