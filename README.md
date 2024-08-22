@@ -18,4 +18,10 @@
     - `drop`: descarta o último item da stash
     - `apply [indice]`: retira o item indicado pelo indice e aplica ao repositório.
 -  `git restore`: desfaz as alterações no _working tree_ quanto no _staging_
-    - `--source`: deixar o arquivo determinado do commit escolhido. 
+    - `--source`: deixar o arquivo determinado do commit escolhido.
+- `git tag [nome_da_tag]`: cria uma tag apontando para o HEAD
+- `git tag [nome_da_tag] [hash_de_um_commit]`: cria uma tag apontando para uma tag especifica
+- `git tag -d [nome_da_tag]`: remove a tag
+- `git tag -a [nome_da_tag] - "mensagem da tag`: cria uma tag com uma mensagem
+-  `git cherry-pick`: aplicar um commit especifico de uma outra branch para branch atual
+-  `git blame`: listar todo o arquivo com o autor e o hash da última alteração de cada linh. 
