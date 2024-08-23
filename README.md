@@ -1,4 +1,9 @@
 # :hammer: Comandos git
+- `git commit  -m` - cria um commit com uma mensagem
+- `git remote add origin` - adiciona um repositório remoto
+- `git pull origin [branch]` - atualiza o repositório local através do repositório remoto
+- `git push origin [branch]` - envia suas modificações locais ao repositório remoto
+-  `git status` - mostra os status dos arquivos alterados.
 - `git log`: Mostra todos os log de todos os commits
   - `-p`: para visualizar as alterações em cada arquivo modificado;
   - `--oneline`: para visualizar cada commit de forma resumida em uma única linha;
